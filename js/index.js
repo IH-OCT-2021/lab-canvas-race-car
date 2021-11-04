@@ -1,5 +1,10 @@
-const canvas= document.querySelector("canvas")
-canvas.width= window.innerWidth
-canvas.height= window.innerHeight
-const ctx= canvas.getContext('2d')
+const canvas = document.querySelector("canvas")
+canvas.width = window.innerWidth
+canvas.height = window.innerHeight
+const ctx = canvas.getContext('2d')
 
+let blueCar = new Image()
+blueCar.src = 'images/car.png'
+blueCar.onload = () => {
+    ctx.drawImage(blueCar, 150, canvas.height - 260, 158, 250)
+}

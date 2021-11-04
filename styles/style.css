@@ -9,6 +9,8 @@ body {
   background-repeat: no-repeat;
   border: 1px solid black;
   background-size: cover;
+  width: 500px;
+  height: 700px;
 }
 
 
