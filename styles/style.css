@@ -1,7 +1,16 @@
 body {
   padding: 0;
   text-align: center;
+  ;
 }
+
+#canvas {
+  background-image: url("../images/road.png");
+  background-repeat: no-repeat;
+  border: 1px solid black;
+  background-size: cover;
+}
+
 
 .game-intro {
   float: left;
@@ -33,6 +42,6 @@ body button {
 }
 
 #game-board {
-    float: left;
-    padding: 20px 0px;
+  float: left;
+  padding: 20px 0px;
 }
